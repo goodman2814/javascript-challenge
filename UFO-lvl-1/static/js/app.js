@@ -53,13 +53,13 @@ function handleFilterButtonClick() {
       tableData = data.filter(function (city_data) {
         let cityCity = city_data.city;
         return cityCity === filterCity;
-      });
+        });
     }
     if (filterState != "") {
       tableData = data.filter(function (state_data) {
         let stateState = state_data.state;
         return stateState === filterState;
-      });
+        });
     }
     if (filterCountry != "") {
       tableData = data.filter(function (country_data) {
